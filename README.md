@@ -10,3 +10,10 @@ This reverse shell code was able to inject SQL allocated Pickle written in Pytho
     Finally, the modified payload is printed to the console.
 
     
+nc listener on any port of your choice you can use the command below:
+
+nc -lnvp <port-num>
+
+Now copy the payload string that we got from the output just now and paste into burp to send request.
+
+Go back to nc then here we go.
